@@ -1,0 +1,112 @@
+ body {
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .login-container {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        } 
+         .logo {
+            font-size: 35px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #050a13;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .logo_1  {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #796eaa;
+            position: initial;
+           text-align: center;
+           
+            } 
+
+         .welcome-text {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+         .form-group {
+            margin-bottom: 20px;
+        }
+          label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+         input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+         .signin-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+         .google-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: white;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+          .signup-link {
+            text-align: center;
+            color: #666;
+        }
+        .signup-link a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+          .welcome-section {
+            width: 50%;
+            background-color: #fff;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+         .welcome-title {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+          .welcome-description {
+            color: #666;
+            line-height: 1.6;
+        }
